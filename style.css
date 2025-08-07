@@ -1,0 +1,69 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+.div-container{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    color: rgb(0, 0, 0);
+    height: 200px;
+    width: 200px;
+    /* border: 10px solid midnightblue; */
+    border-radius: 20%;
+    margin: 1rem;
+    border: 3px solid #0000FF; /* Base border color */
+    box-shadow: 0 0 10px #0000FF; /* Glow effect */
+    transition: box-shadow 0.3s ease
+}
+ /* .btn {
+    height: 150px;
+    width: 150px;
+    border: 5px solid midnightblue;
+    border-radius: 20%;
+    margin: 1rem;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
+} */
+
+/* .btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+} */
+.red{
+    background-color: red;
+}
+.hotpink{
+    background-color: hotpink;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: #007BFF;
+}
+h1,h2{
+    color: white;
+}
+h4{
+    color: gold;
+}
+.peach{
+    background-color: #FF7F50;
+}
+.green{
+    background-color: #00FF00;
+}
+.orange{
+    background-color: #FF4500;
+}
+.voilet{
+    background-color: #8A2BE2;
+}
+.gameflash{
+    background-color: white;
+}
+.userflash{
+    background-color: aqua;
+}
